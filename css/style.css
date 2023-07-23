@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none
+}
+li {
+    list-style: de;
+}
+.hidden {
+    display: none;
+}
+.clock {
+    position: absolute;
+    top: 0%;
+    left: 37%;
+    font-size: 130px;
+    color: #333;
+}
+#login-form {
+    position: absolute;
+    top: 20%;
+    left: 34%;
+}
+#login-form input:first-child {
+    border: none;
+    padding: 20px 150px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#login-form input:last-child {
+    border: none;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 20px;
+}
+#greeting {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: antiquewhite ;
+    background-color: #333;
+    border: none;
+    padding: 20px 150px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#weather {
+    position: absolute;
+    top: 31%;
+    left: 43%;
+    font-size: 30px;
+    color: rebeccapurple;
+}
+#todo-li {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 740px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+#todo-form {
+    position: absolute;
+    top: 42%;
+    left: 35%;
+}
+#todo-form input {
+    border: none;
+    padding: 20px 200px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    background: #ccc;
+}
+#todo-form input:hover {
+    background-color: #333;
+    color: antiquewhite;
+}
+#todo-list {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 20px;
+}
+button {
+    background: none;
+    border: none;
+    color: red;
+    margin-left: 200px;
+    font-size: 15px;
+}
